@@ -9,6 +9,8 @@ Research design and experiment for predicting customer churn on the Kaggle datas
 
 | File | Description |
 |---|---|
+| `proposal.md` | Project proposal: research question, dataset link and source, two-source scan of existing work |
+| `CONFLICT_NOTES.md` | Record of the README merge conflict between `main` and `proposal` and how it was resolved |
 | `literature_review.md` | Four sources on churn prediction, each summarised in 2–3 sentences |
 | `methodology.md` | Research question, dataset description and limitations, cleaning plan, feature-engineering plan, models, evaluation metrics |
 | `experiment.ipynb` | Full experiment with outputs saved: cleaning, feature pipeline, two tuned models, evaluation, findings |
@@ -38,4 +40,5 @@ The notebook reads `data/customer_churn_1M.csv.gz` directly, so no extra downloa
 
 ## Workflow
 
-Work was done on an `experiment` branch with incremental commits and merged into `main` through a Pull Request.
+- **`proposal` branch:** `proposal.md` was written in a draft commit and a final commit. A deliberate edit to the same README line on `main` and `proposal` produced a merge conflict, resolved by hand and documented in `CONFLICT_NOTES.md`. Merged through Pull Request #3.
+- **`experiment` branch:** literature review, methodology, dataset and the executed notebook were added with incremental commits and merged through Pull Requests #1 and #2.
