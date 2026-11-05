@@ -3,7 +3,7 @@
 Research design and experiment for predicting customer churn on the Kaggle dataset
 [*Customer Churn Prediction Dataset – 1M*](https://www.kaggle.com/datasets/isandeep06/customer-churn-prediction-dataset-1m).
 
-**Research question:** on 1,000,000 customers, does gradient boosting beat logistic regression on PR-AUC, and which signals drive churn risk? (details in `proposal.md`)
+**Research question:** on 1,000,000 customers, does gradient boosting rank churners better than logistic regression (PR-AUC on a held-out test set), and which signals drive churn risk? See `proposal.md` for the proposal and `methodology.md` for the full plan.
 
 ## Repository contents
 
