@@ -3,7 +3,7 @@
 Research design and experiment for predicting customer churn on the Kaggle dataset
 [*Customer Churn Prediction Dataset – 1M*](https://www.kaggle.com/datasets/isandeep06/customer-churn-prediction-dataset-1m).
 
-**Research question:** does a gradient-boosted tree model rank customers by churn risk better than a regularised logistic regression (primary metric: PR-AUC on a held-out test set), and what does each capture in a retention campaign limited to the 10% highest-risk customers?
+**Research question:** on 1,000,000 customers, does gradient boosting beat logistic regression on PR-AUC, and which signals drive churn risk? (details in `proposal.md`)
 
 ## Repository contents
 
